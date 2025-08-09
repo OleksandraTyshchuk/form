@@ -1,0 +1,44 @@
+
+body {
+  background-color: #eb2fcc; /* Рожевий фон */
+}
+
+p {
+  color: rgb(32, 30, 180); /* Синій шрифт */
+}
+
+textarea {
+color: rgb(32, 30, 180); /* Синій шрифт */
+}
+
+option  {
+  color: rgb(32, 30, 180); /* Синій шрифт */
+}
+
+value {
+  color: rgb(32, 30, 180); /* Синій шрифт */
+}
+
+selection4 {
+  color: rgb(32, 30, 180); /* Синій шрифт */
+}
+
+button  {
+  background-color: #2bdf8b; /* Світло-сірий фон */
+  color: rgb(32, 30, 180); /* Синій шрифт */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: ;center;
+
+
+  font-size: 16px;
+
+  border-radius: 5px; /* Закруглені кути */
+} 
+
+h1
+{
+  color: rgb(61, 9, 104); /* Синій шрифт */
+  text-align: center; /* Вирівнювання по центру */
+}
