@@ -7,43 +7,77 @@
 </head>
 
 <body>
-  <h1>Форма реєстрації користувача</h1>
+  <form>
+    <h1>Форма реєстрації користувача</h1>
 
-  <section id="section1">
-    <p><label for="name">Повне ім'я</label> <input type="text" id="name" name="name" required> </p>
-    <p><label for="email">Email</label> <input type="text" id="email" name="email" required> </p>
-    <p><label for="password">Пароль</label> <input type="text" id="password" name="passwordі" required> 
-    </p>
-    <p><label for="password">Пароль ще раз</label> <input type="text" id="password" name="password" required> </p>
-  </section>
+    <div id="section-name">
+      <div class="form-group">
+        <label for="name">Повне ім'я</label>
+        <input type="text" id="name" name="name" required>
+      </div>
 
-  <section id="section2">
-    <p>Стать<label>Чоловіча<input type="radio" name="gender" value="male"></label>
-    <label>Жіноча<input type="radio" name="gender" value="female"></label>
-    </p>
-  </section>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" required>
+      </div>
 
-  <section id="section3">
-    <p><label for="courses">Виберіть курс</label> 
-    <select id="courses" name="courses">
-      <option value="Frontend">Front-end</option>
-      <option value="Backend">Back-end</option>
-      <option value="QA Manual">QA Manual</option>
-      <option value="UI/UX design">UI/UX designs</option>
-      <option value="Python">Python</option>
-    </select>
-    </p>
-    <p><label for="name">Повна адреса</label> 
-    <textarea rows="4" cols="20" name="address"  id="address" name="address" placeholder="Країна, регіон, місто/селище, вулиця"></textarea></p>
-  </section>
+      <div class="form-group">
+        <label for="password">Пароль</label>
+        <input type="text" id="password" name="passwordі" required>
+      </div>
 
+      <div class="form-group">
+        <label for="password">Пароль ще раз</label>
+        <input type="text" id="password" name="password" required>
+      </div>
+    </div>
 
-  <section id="section4">
-    <input type="checkbox" id="myCheckbox" name="myCheckbox" value="someValue">
-<label for="myCheckbox">Я погоджуюсь з обробкою персональних даних</label>
-  </section>
-  
-  <section id="section5">
-    <button type="submit">Очистити форму</button> <button type="reset">Зареєструватися</button>
+    <div class="form-group">
+      <span>Стать</span>
 
+      <div class="gender-group">
+        <label>
+          Чоловіча
+          <input type="radio" name="gender" value="male">
+        </label>
+
+        <label>
+          Жіноча
+          <input type="radio" name="gender" value="female">
+        </label>
+      </div>
+    </div>
+
+    <div id="courses">
+      <p>
+        <label for="courses">Виберіть курс</label>
+        <select id="courses" name="courses">
+          <option value="Frontend">Front-end</option>
+          <option value="Backend">Back-end</option>
+          <option value="QA Manual">QA Manual</option>
+          <option value="UI/UX design">UI/UX designs</option>
+          <option value="Python">Python</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="name">
+          Повна адреса
+        </label>
+        <textarea rows="4" cols="20" name="address" id="address" name="address"
+          placeholder="Країна, регіон, місто/селище, вулиця">
+          </textarea>
+      </p>
+    </div>
+
+    <div id="sign-in">
+      <input type="checkbox" id="myCheckbox" name="myCheckbox" value="someValue">
+      <label for="myCheckbox">Я погоджуюсь з обробкою персональних даних</label>
+    </div>
+
+    <section id="section5">
+      <button type="submit">Очистити форму</button>
+      <button type="reset">Зареєструватися</button>
+    </section>
+  </form>
 </body>
