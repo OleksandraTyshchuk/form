@@ -49,7 +49,7 @@
     </div>
 
     <div id="courses">
-      <p>
+      <div class="form-group">
         <label for="courses">Виберіть курс</label>
         <select id="courses" name="courses">
           <option value="Frontend">Front-end</option>
@@ -58,26 +58,23 @@
           <option value="UI/UX design">UI/UX designs</option>
           <option value="Python">Python</option>
         </select>
-      </p>
+      </div>
 
-      <p>
-        <label for="name">
-          Повна адреса
-        </label>
-        <textarea rows="4" cols="20" name="address" id="address" name="address"
-          placeholder="Країна, регіон, місто/селище, вулиця">
-          </textarea>
-      </p>
+      <div class="form-group">
+        <span>Повна адреса
+        </span>
+        <textarea rows="4" cols="20" name="address" id="address" name="address"      placeholder="Країна, регіон, місто/селище, вулиця"></textarea>
+      </div>
     </div>
 
     <div id="sign-in">
-      <input type="checkbox" id="myCheckbox" name="myCheckbox" value="someValue">
-      <label for="myCheckbox">Я погоджуюсь з обробкою персональних даних</label>
+      <input type="checkbox" id="my-checkbox" name="my-checkbox" value="some-value">
+      <label for="my-checkbox">Я погоджуюсь з обробкою персональних даних</label>
     </div>
 
-    <section id="section5">
+    <div class="buttons">
       <button type="submit">Очистити форму</button>
       <button type="reset">Зареєструватися</button>
-    </section>
+    </div>
   </form>
 </body>
